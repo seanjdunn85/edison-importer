@@ -1,0 +1,24 @@
+{
+  "name": "edison-importer",
+  "version": "1.0.0",
+  "description": "scrape edison data and enter into mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "usa-states": "0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
